@@ -104,7 +104,10 @@ button.addEventListener("click", () => {
             loadQuiz();
         }
         else {
-            result.innerHTML = `<h2 class = "result">You answered correctly  ${score}/${quizData.length} questions.</h2>`
+            result.innerHTML = `
+            <h2 class = "result">You answered correctly  ${score}/${quizData.length} questions.</h2>
+            <button onclick="location.reload()">Reload</button>
+            `
 
         }
 
