@@ -24,7 +24,14 @@ body{
 }
 
 h2{
-    padding: 0%;
+    /* text-align: center; */
+    padding: 0;
+
+}
+
+.result{
+    text-align: center;
+    padding: 1rem;
 }
 
 ul{
