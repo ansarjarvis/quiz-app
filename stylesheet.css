@@ -63,3 +63,21 @@ button:hover{
     background-color: #0a8b49;
     color: white;
 }
+
+@media(max-width:500px){
+    .quiz-container{
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+    }
+  .quiz-header{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+}
